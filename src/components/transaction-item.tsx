@@ -19,7 +19,7 @@ export default function TransactionItem({
       )}
     >
       <span>{name}</span>
-      <span>{amount}</span>
+      <span>{amount.toLocaleString()} 원</span>
       <button
         className="bg-[#e74c3c] text-[#fff] px-2 py-1 rounded-md cursor-pointer transition-all duration-300 hover:bg-[#c0392b]"
         onClick={() => deleteExpense(id)}

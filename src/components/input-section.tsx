@@ -51,7 +51,7 @@ export default function InputSection({
           className="flex-1 p-2 border border-[#ddd] rounded-md text-base w-full"
           type="number"
           id="transaction-amount"
-          placeholder="금액 (예: 100 또는 -50)"
+          placeholder="금액 (예: 10000 또는 -5000)"
           required
         />
         <button className="bg-[#3498db] hover:bg-[#2e80b9] text-[#fff] px-5 py-[10px] cursor-pointer transition-all duration-300 rounded-md w-full sm:w-auto">

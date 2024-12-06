@@ -8,7 +8,7 @@ export default function Balance({history}:{ history: Expense[]}) {
   return (
     <section className="bg-[#fff] text-center p-5 rounded-md shadow-md">
       <h2 className="mb-2">Total Balance</h2>
-      <p className="text-2xl font-bold">{totalBalance.toLocaleString()}원</p>
+      <p className="text-2xl font-bold">{totalBalance.toLocaleString()} 원</p>
     </section>
   );
 }
